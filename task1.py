@@ -2,17 +2,20 @@ import math
 
 
 class Point():
-    """This is an empty class"""
+    x=0
+    y=0
+
+
 
 P1=Point()
 P2=Point()
-P1.x1=5
-P1.y1=6
-P2.x2=6
-P2.y2=5
+P1.x=5
+P1.y=6
+P2.x=6
+P2.y=5
 
 def distance_between_points(Point,P1,P2):
-    distance=math.sqrt((P2.x2-P1.x1)**2+(P2.y2-P1.y1)**2)
+    distance=math.sqrt((P2.x-P1.x)**2+(P2.y-P1.y)**2)
     return distance
 
 
